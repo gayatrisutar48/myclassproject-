@@ -1,4 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.min.css"
 
+@import "~bootstrap/dist/css/bootstrap.min.css";
+nav {
+    background: lightgray;
+    overflow: auto;
+}
 
+nav li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.slider{
+    background-image: url("/assets/slide2.jpg");
+
+}
+
+.navbar-inner {
+    background-color:transparent;
+}
